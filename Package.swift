@@ -1,4 +1,4 @@
-// swift-tools-version:4.2
+// swift-tools-version:5.9
 
 import PackageDescription
 
@@ -9,7 +9,7 @@ let package = Package(
       .library(name: "ReSwiftThunkTesting", targets: ["ReSwiftThunkTesting"])
     ],
     dependencies: [
-      .package(url: "https://github.com/ReSwift/ReSwift", .upToNextMajor(from: "6.1.0"))
+        .package(url: "https://github.com/MxIris-Library-Forks/ReSwift", branch: "master")
     ],
     targets: [
       .target(
